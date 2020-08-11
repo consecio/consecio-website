@@ -2,13 +2,18 @@
   "applinks": {
     "details": [
       {
-        "appIDs": [
-          "2RA7W8C544.com.consecioapp",
-          "2RA7W8C544.com.consecioapp.beta"
-        ],
+        "appIDs": "2RA7W8C544.com.consecioapp",
         "components": [
           {
-            "/": "/verify/*"
+            "/": "/appLogin/*"
+          }
+        ]
+      },
+      {
+        "appID": "2RA7W8C544.com.consecioapp.beta",
+        "components": [
+          {
+            "/": "/devLogin/*"
           }
         ]
       }
