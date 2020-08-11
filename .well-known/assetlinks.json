@@ -1,0 +1,26 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.consecioapp",
+      "sha256_cert_fingerprints": [
+        "F9:A2:BB:CF:B2:18:AD:B6:0B:A8:71:DD:F1:13:94:1F:27:7D:00:13:AF:53:B3:C7:59:5B:BC:80:29:30:F8:65"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.consecioapp.beta",
+      "sha256_cert_fingerprints": [
+        "F9:A2:BB:CF:B2:18:AD:B6:0B:A8:71:DD:F1:13:94:1F:27:7D:00:13:AF:53:B3:C7:59:5B:BC:80:29:30:F8:65"
+      ]
+    }
+  }
+]
