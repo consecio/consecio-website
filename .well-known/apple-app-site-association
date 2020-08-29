@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": "2RA7W8C544.com.consecioapp",
+        "appID": "2RA7W8C544.com.consecioapp",
         "components": [
           {
             "/": "/appLogin/*"
