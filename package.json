@@ -9,6 +9,8 @@
   "private": true,
   "scripts": {
     "develop": "yarn --cwd ./website develop",
+    "build": "yarn --cwd ./website build",
+    "serve": "yarn --cwd ./website serve",
     "fix": "yarn prettier ./website/src/pages/* -w"
   },
   "dependencies": {
