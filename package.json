@@ -2,16 +2,20 @@
   "name": "consecio-website",
   "version": "1.0.0",
   "description": "Consecio's website",
-  "main": "index.js",
+  "main": "main.tsx",
   "repository": "https://github.com/consecio/consecio-website.git",
   "author": "David Broman <david@bromans.com>",
   "license": "Copyright Consecio",
   "private": true,
   "scripts": {
-    "develop": "yarn --cwd ./website develop"
+    "develop": "yarn --cwd ./website develop",
+    "fix": "yarn prettier ./website/src/pages/* -w"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "gatsby-cli": "^2.19.1",
+    "prettier": "^2.2.1",
+    "react-bootstrap": "^1.4.3",
     "typescript": "^4.1.5"
   }
 }
